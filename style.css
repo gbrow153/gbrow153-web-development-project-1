@@ -1,0 +1,69 @@
+/* BASIC WEBSITE STYLES */
+
+/* Body styling - overall website background and font */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e9ff; /* Super pretty purple for the base of the website */
+}
+
+/* Header styling - background color for header and nav bar */
+header {
+    background-color: #463b7c; /* Indigo color for headers and nav bar */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Link styling */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #463b7c;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #463b7c;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #463b7c;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "web-development-project-1",
+  "version": "1.0.0",
+  "description": "## Description This project is a simple, three-page website built with HTML, CSS, and JavaScript. It includes a Home page, an About page, and a Contact page. The website shows basic interactivity using client-side JavaScript, such as form validation and navigation toggling.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
