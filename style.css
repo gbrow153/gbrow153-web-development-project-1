@@ -6,12 +6,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f3e9ff; /* Super pretty purple for the base of the website */
+    background-color: #fef5fc; /* Super pretty pink for the base of the website */
 }
 
 /* Header styling - background color for header and nav bar */
 header {
-    background-color: #463b7c; /* Indigo color for headers and nav bar */
+    background-color: #a02f5b; /* Magenta color for headers and nav bar */
     color: white;
     padding: 10px;
     text-align: center;
@@ -30,7 +30,9 @@ nav ul li {
 
 /* Link styling */
 a {
-    color: #fff;
+    color: #fefcfd
+
+    ;
     text-decoration: none;
 }
 
@@ -46,7 +48,7 @@ form {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    border: 1px solid #463b7c;
+    border: 1px solid #a02f5b;
     border-radius: 5px;
     background-color: #f5f5f5;
 }
@@ -55,15 +57,40 @@ form label {
     display: block;
     margin: 10px 0 5px;
     font-weight: bold;
-    color: #463b7c;
+    color: #a02f5b;
 }
 
 form input, form textarea {
     width: 100%;
     padding: 10px;
     margin: 5px 0 15px;
-    border: 1px solid #463b7c;
+    border: 1px solid #a02f5b;
     border-radius: 4px;
     outline: none;
     transition: border-color 0.3s ease;
+}
+.photo {
+    width: 50px; /* Adjust width */
+    height: auto; /* Adjust height proportionally */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+/*Random fact styling*/
+#random-fact {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #a53360;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d16096;
 }

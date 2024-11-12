@@ -36,10 +36,27 @@
         <p>I'm not very experienced with HTML, but I've realized I've actually used some of these HTML tags before when I had a DeviantArt account back then.</p>
     </section>
     <section>
-        <p>One of my favorite colors is purple. So I tried to choose the prettiest shade from <a href="https://html-color.codes/">html-color.codes</a>. I hope you enjoy it. Some of my interests are writing, drawing, and listening to music. I'm also a real big fan of the gothic visual style.</p>
+        <img src="images/head1.jpeg"
+        <img src="images/kharjo.jpeg"
+        <img src="images/head2.jpeg"
     </section>
+    <!-- Little interactive click to show fact thing.-->
     <section>
-        <p>As a design student, I've gotten to work on designing prototypes for desktop websites to mobile applications. My future goal is to become a UX designer, to be able to work with a team of designers as well as real users to create intuitive designs that are just as easy to use as they are to look at. ♡</p>
+        <p id="random-fact">Click the button to get a random fact about me!</p>
+        <button onclick="showRandomFact()">Get a random fact</button>
     </section>
-</body>
+    
+    <script>
+        const facts = [
+            "I love graphic novels.",
+            "My favorite color is purple.",
+            "I'm a huge fan of indie games.",
+            "I have a cat named Kharjo!"
+        ];
+    
+        function showRandomFact() {
+            const fact = facts[Math.floor(Math.random() * facts.length)];
+            document.getElementById('random-fact').textContent = fact;
+        }
+    </script>
 </html>
