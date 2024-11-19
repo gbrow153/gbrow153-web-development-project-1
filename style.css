@@ -70,8 +70,8 @@ form input, form textarea {
     transition: border-color 0.3s ease;
 }
 .photo {
-    width: 50px; /* Adjust width */
-    height: auto; /* Adjust height proportionally */
+    width: auto; /* Adjust width */
+    height: 50px; /* Adjust height proportionally */
     border-radius: 8px; /* Optional: Adds rounded corners */
 }
 /*Random fact styling*/
